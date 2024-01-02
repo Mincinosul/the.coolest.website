@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(244, 180, 168);
+    margin: 0;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.img {
+   display: flex;
+   justify-content: center;
+   margin-bottom: -50px;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;  
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+}
+
+
+button{
+    font-family: 'Seymour One', sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-right: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background-color: white;
+    border: 5px solid;
+    border-color: rgb(142, 50, 50);
+    border-radius: 15px;
+    
+  }
+
+  #da:hover, #da:focus, #da:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  #da{
+    margin-left: 55%;
+  }
+
+  #evil-button{
+    position: absolute;
+    margin-left: 30%;
+    
+  }
+
+
